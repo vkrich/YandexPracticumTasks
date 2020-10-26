@@ -12,7 +12,7 @@ def information_count(data): #return calculated sum and information format
       sums += int(i[2])
     else:
       while i[3] != max_format: 
-        i[2] = float(i[2])/1000
+        i[2] = float(i[2])/1024
         i[3] = data_formats[data_formats.index(i[3])+1]      
       sums += i[2]
   
